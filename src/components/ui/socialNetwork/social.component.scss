@@ -1,0 +1,13 @@
+.social {
+    text-align: center;
+    .social-item {
+        position: relative;
+        display: inline-block;
+        .social-info {
+            .social-img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

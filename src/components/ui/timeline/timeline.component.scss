@@ -1,0 +1,145 @@
+.timeline {
+    .timeline-section {
+        &:before {
+            display: none;
+        }
+        .timeline-item {
+            margin-bottom: 20px;
+            width: 100%;
+    
+            .timeline-info {
+                position: relative;
+                display: inline-block;
+        
+        
+                .timeline-company {
+                    position: relative;
+                    display: inline-block;
+                    font-family: 'NunitoSans-Bold';
+                    color: $color_02;
+                    font-size: 14px;
+                    float:left;
+                    text-align: left;
+                }
+                .timeline-date {
+                    position: relative;
+                    display: inline-block;
+                    height:42px;
+                    font-family: 'NunitoSans-Regular';
+                    color: $color_03;
+                    font-size: 14px;
+                    float: right;
+                    text-align: right;
+                }
+            }
+        
+            .timeline-photo {
+                position: relative;
+                display: inline-block;
+                margin-bottom: 14px;
+                .timeline-photo-img {
+                    position: relative;
+                    display: inline-block;
+                    float: left;
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        border-style: solid;
+                        border-color: $color_02;
+                        display: inline-block;
+                        position:relative;
+                    }
+                }
+            }
+        
+            .timeline-text {
+                position: relative;
+                display: block;
+                text-align: left;
+                float: right;
+        
+                .timeline-title {
+                    position: relative;
+                    display: inline-block;
+                    font-family: 'NunitoSans-Bold';
+                    font-size: 14px;
+                    text-align: left;
+            
+                    .timeline-subtitle {
+                        font-family: 'NunitoSans-Black';
+                        font-size: 14px;
+                        color: $color_02;
+                    }
+                }
+                
+                .timeline-description {
+                    position: relative;
+                    display: inline-block;
+                    color: $color_03;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .timeline {
+        .timeline-section {
+            &:before {
+                content: "";
+                position: absolute;
+                top: 70px;
+                bottom: 14rem;
+                left: calc(30%);
+                width: 2px;
+                height: calc(100% - 60px);
+                display: block;
+                background-color: $color_02;
+                border-radius: 7.5px;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                left: calc(30% - 6px);
+                bottom: -18px;
+                width: 14px;
+                height: 14px;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                border-radius: 50%;
+                background: $color_02;
+            }
+            .timeline-item {
+                position: relative;
+                display: inline-block;
+                .timeline-info {
+                    position: relative;
+                    display: inline;
+                    float: left;
+                    padding: 0px !important;
+                    .timeline-date {
+                        text-align: left;
+                    }
+                }
+            
+                .timeline-photo {
+                    text-align: center;
+                    .timeline-photo-img {
+                        img {
+                        }
+                    }
+                    .timeline-title {
+                        .timeline-subtitle {
+                        }
+                    }
+                }
+                .timeline-description {
+                    float: right;
+                }
+            }
+        }
+    }
+}

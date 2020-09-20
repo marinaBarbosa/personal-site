@@ -1,0 +1,9 @@
+<div class="social col-12 col-lg-10 offset-lg-1">
+    <div class="social-item" v-for="socialItem in social">
+      <div class="social-info col-12 col-lg-2 no-gutters">
+          <a :href="`${socialItem.url}`" _>
+            <img class="social-img" :src="`${socialItem.icon}`"/>
+          </a>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<section id="contacts">
+  <Title title="contacts"></Title>
+  <div class="contacts-info col-12 col-lg-4">
+    <div class="contacts-info-text">
+      Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones.
+    </div>
+    <SocialNetworks></SocialNetworks>
+  </div>
+
+  <div class="contacts-form col-12 col-lg-8">
+    <form id="app" @submit="checkForm" action="https://formspree.io/xzbjwzkn" method="POST" novalidate="true">
+      <p v-if="errors.length">
+        <b>Please correct the following error(s):</b>
+        <ul>
+          <li v-for="error in errors">{{ error }}</li>
+        </ul>
+      </p>
+      <p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" v-model="name" />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" v-model="email" />
+      </p>
+      <p>
+        <label for="message">Message</label>
+          <textarea type="text" name="message" id="message" v-model="message" col=30 placeholder="Place your questions"/>
+      </p>
+      <p>
+        <input type="submit" value="Send">  
+      </p>
+    </form>
+  </div>
+</section>

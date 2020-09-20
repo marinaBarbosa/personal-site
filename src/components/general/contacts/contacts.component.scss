@@ -1,0 +1,27 @@
+#contacts {
+    .contacts-info {
+        position: relative;
+        display: block;
+        float: left;
+    
+    }
+    .contacts-form {
+        position: relative;
+        display: block;
+        float: right;
+
+        label {
+            font-family: 'NunitoSans-ExtraBold';
+            font-size: 12px;
+            line-break: 16px;
+            text-transform: uppercase;
+        }
+        input,textarea {
+            position: relative;
+            display: inline;
+            width: 100%;
+            border: unset;
+            border-bottom: 1px solid grey;
+        }
+    }
+}

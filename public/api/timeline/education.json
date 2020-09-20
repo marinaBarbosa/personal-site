@@ -1,0 +1,24 @@
+[
+    {
+        "location": "Covilhã, PT",
+        "date": "2011-2015",
+        "photo": "/assets/education/ubi.png",
+        "title": "Bachelor Degree in Computer Science",
+        "description": "This where I learn  "
+    },
+{
+    "location": "Politechnika Białostocka, Białystok, PL",
+    "date": "Sep'17 - Fev'18",
+    "photo": "/assets/education/bialostocka.png",
+    "title": "Erasmus+ Studies Programme",
+    "subtitle": "sample",
+    "description":"This was my first experience abroud, and was amazing, Integrate im my master studies."
+},
+{
+    "location": "Bachelor Degree in Computer Engeneering",
+    "date": "Sep'17 - Fev'18",
+    "photo": "/assets/education/ipvc.jpeg",
+    "title": "Erasmus+ Studies Programme",
+    "subtitle": "sample",
+    "description":"This was my first experience abroud, and was amazing, Integrate im my master studies, <span>learning </span>thing like Ruby On Rayls, Java Patterns, developer Android applications"
+}]

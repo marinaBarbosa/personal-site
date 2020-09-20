@@ -1,0 +1,24 @@
+[
+    {
+        "location": "Covilhã, PT",
+        "date": "2011-2015",
+        "photo": "/assets/work/ctw.jpeg",
+        "title": "Bachelor Degree in Computer Science",
+        "description": "This where I learn  "
+    },
+{
+    "location": "Politechnika Białostocka, Białystok, PL",
+    "date": "Sep'17 - Fev'18",
+    "photo": "/assets/work/skillmind.png",
+    "title": "Erasmus+ Studies Programme",
+    "subtitle": "sample",
+    "description":"Developing and maintaining the frontend functionality of websites; • Create clean code and providing accessibility on the projects; • Integrate API’s; • Provide guidance too the rteam members on web development issues; • Using different JavaScript and HTML techniques, frameworks and libraries; • Address cross-browsercompatibilityissues;•Adaptableandabletoquicklypickupnewtechniques; •UnderstandofW3Cstandards,webaccessibility&bestpractices."
+},
+{
+    "location": "Bachelor Degree in Computer Engeneering",
+    "date": "Sep'17 - Fev'18",
+    "photo": "/assets/work/itpeople.png",
+    "title": "Erasmus+ Studies Programme",
+    "subtitle": "sample",
+    "description":"This was my first experience abroud, and was amazing, Integrate im my master studies, <span>learning </span>thing like Ruby On Rayls, Java Patterns, developer Android applications"
+}]

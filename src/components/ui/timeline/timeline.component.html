@@ -1,0 +1,22 @@
+<section :id="title" class="timeline col-12 no-gutters">
+  <Title :title="title"></Title>
+  <div class="timeline-section">
+    <div class="timeline-item" v-for="timeline in value">
+      <div class="timeline-info col-12 col-lg-2 no-gutters">
+          <div class="timeline-company col-6 col-lg-12">{{ timeline.location }}</div>
+          <div class="timeline-date col-6 col-lg-12">{{ timeline.date }}</div>
+      </div>
+      <div class="timeline-photo col-4 col-lg-3 no-gutters">
+        <div class="timeline-photo-img col-4 col-lg-12 no-gutters"><img :src="timeline.photo"/></div>
+      </div>
+      <div class="timeline-text col-8 col-lg-7 no-gutters">
+        <div class="timeline-title col-12 col-lg-12 row no-gutters">
+          <div class="timeline-title col-8">{{ timeline.title }}
+            <span v-if='timeline.subtitle' class="timeline-subtitle">- {{ timeline.subtitle }}</span>
+          </div>
+        </div>
+        <div class="timeline-description col-12 col-lg-12">{{ timeline.description }}</div>
+      </div>
+    </div>
+  </div>
+</section>
